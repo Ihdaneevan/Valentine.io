@@ -1,0 +1,24 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Make body take full screen */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden; /* Prevents scrolling */
+    background-color: #000; /* Black background */
+}
+
+/* Full-screen image styling */
+img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; /* Ensures the image covers the screen */
+}
